@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-11 col-md-4 bg-dark text-light mb-4 mt-4">
+                <h1 class="text-center">REGISTRATE EN NUESTRA WEB</h1>
+                <form>
+                    <h4>Crear registro:</h4>
+                    <div class="form-group">
+                      <label for="nombre">Nombre Usuario</label>
+                      <input type="text" class="form-control" id="nombre">                      
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div> 
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-lg">Agregar</button>
+                    <br><br><br><br>
+                    <h4>Consultar Registro</h4>
+                    <div class="form-group">
+                        <label for="buscarUsuario">Buscar usuario</label>
+                        <input type="text" class="form-control" id="buscarUsuario">                                          
+                      </div>
+                      <button type="submit" class="btn btn-success btn-block btn-lg">Buscar</button><br>
+                  </form>
+            </div>
+            <div class="col-11 col-md-7 border border-dark mb-4 mt-4 ">
+                <h1>Resultados: </h1>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
